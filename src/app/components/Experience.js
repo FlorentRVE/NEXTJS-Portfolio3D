@@ -18,7 +18,7 @@ export default function Experience() {
 
     /**  -------------------------- Loading Screen & Intro Animation -------------------------- */
 
-    const manager = new THREE.LoadingManager();
+    // const manager = new THREE.LoadingManager();
 
     const loadingScreen = document.querySelector(".loading-screen");
     const loadingScreenButton = document.querySelector(

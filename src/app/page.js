@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Experience from "./components/Experience";
 
 export default function Home() {
@@ -266,7 +267,7 @@ export default function Home() {
                 />
                 <h2 className="modal-paragraph-header">Community Manager</h2>
                 <p className="modal-paragraph-text">
-                  Bonjour à vous ! Je suis Rivière Florent, j'aime apprendre et
+                  Bonjour à vous ! Je suis Rivière Florent, j&apos;aime apprendre et
                   surtout apprendre à créer de nouvelles choses avec mon
                   ordinateur ! 😊✌️
                 </p>
@@ -276,7 +277,7 @@ export default function Home() {
                   (After Effects) ou encore graphisme (Photoshop). 🎨
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
-                  J'ai aussi un attrait pour la culture internet et le monde du
+                  J&apos;ai aussi un attrait pour la culture internet et le monde du
                   jeu vidéo. 🎮
                 </p>
                 <h2 className="modal-paragraph-header">Mes compétences:</h2>
@@ -293,8 +294,8 @@ export default function Home() {
                     campagnes.
                   </li>
                   <li className="list-text">
-                    Je peux aussi m'occuper de site web, que ce soit du CMS ou
-                    du plus poussée en développement. J'ai des compétences en
+                    Je peux aussi m&apos;occuper de site web, que ce soit du CMS ou
+                    du plus poussée en développement. J&apos;ai des compétences en
                     Symfony et React.
                   </li>
                 </ul>
@@ -303,13 +304,13 @@ export default function Home() {
                 </h2>
                 <ul>
                   <li className="list-text-2">
-                    La musique de fond est une version Lofi d'une
+                    La musique de fond est une version Lofi d&apos;une
                     <a href="https://www.youtube.com/watch?v=oSxTqeY43QE&list=RDoSxTqeY43QE&start_radio=1&pp=ygUlZmluYWwgZmFudGFzeSBjcnlzdGFsIGNocm9uaWNsZXMgbG9maaAHAQ%3D%3D">
                       OST Final Fantasy Crystal Chronicles
                     </a>
                   </li>
                   <li className="list-text-2">
-                    Ce portfolio a été réalisé en suivant la vidéo Youtube d'
+                    Ce portfolio a été réalisé en suivant la vidéo Youtube d&apos;
                     <a
                       href="https://www.youtube.com/watch?v=AB6sulUMRGE"
                       target="_blank"
@@ -318,7 +319,7 @@ export default function Home() {
                     >
                       Andrew Woan
                     </a>
-                    . N'hésitez pas à y jeter un oeil !
+                    . N&apos;hésitez pas à y jeter un oeil !
                   </li>
                 </ul>
               </div>
@@ -360,7 +361,7 @@ export default function Home() {
             <div className="modal-content-wrapper">
               <div className="paragraph-section">
                 <h2 className="modal-paragraph-header xsm-margin-top">
-                  Si mon profil vous interesse, n'hésitez pas à me contacter !
+                  Si mon profil vous interesse, n&apos;hésitez pas à me contacter !
                 </h2>
                 <div className="contact-button-wrapper">
                   <a
