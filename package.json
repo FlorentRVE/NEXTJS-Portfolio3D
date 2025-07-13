@@ -16,6 +16,11 @@
   "devDependencies": {
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "gsap": "^3.13.0",
+    "howler": "^2.2.4",
+    "include-media": "^2.0.0",
+    "sass": "^1.89.2",
+    "three": "^0.178.0"
   }
 }
