@@ -1,8 +1,21 @@
 import "../style.scss";
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Portfolio CM",
+  metadataBase: new URL("https://florent-rve.fr"),
+  title: "Florent RVE | CM",
+  description: "Venez découvrir mon petit espace de créativité 🏝️",
+  openGraph: {
+    type: "website",
+    title: "Florent RVE | CM",
+    description: "Venez découvrir mon petit espace de créativité 🏝️",
+    url: "https://florent-rve.fr",
+    images: [
+      {
+        url: "/textures/image/logo.webp",
+        alt: "Logo de mon site personnel Florent RVE",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
