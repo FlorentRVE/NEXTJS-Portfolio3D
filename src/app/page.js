@@ -267,19 +267,21 @@ export default function Home() {
                 />
                 <h2 className="modal-paragraph-header">Community Manager</h2>
                 <p className="modal-paragraph-text">
-                  Bonjour à vous ! Je suis Rivière Florent, j&apos;aime apprendre et
-                  surtout apprendre à créer de nouvelles choses avec mon
-                  ordinateur ! 😊✌️
+                  Bonjour et bienvenue ! Je m&apos;appelle Rivière Florent.
+                </p>
+                <p className="modal-paragraph-text">
+                  Je suis passionné par l&apos;apprentissage et par la création
+                  de projets innovants sur ordinateur ! 😊✌️
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
-                  Mon temps libre est principalement consacré à apprendre de
-                  nouvelles compétences en 3D (Blender), Vidéo/Motion Design
-                  (After Effects) ou encore graphisme (Photoshop). 🎨
+                  En dehors de mes missions, je peaufine mes compétences en 3D
+                  (Blender), motion design (After Effects) et graphisme
+                  (Photoshop). 🎨
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
-                  J&apos;ai aussi un attrait pour la culture internet et le monde du
-                  jeu vidéo. 🎮
+                  Je suis également immergé dans la culture web et gaming. 🎮
                 </p>
+
                 <h2 className="modal-paragraph-header">Mes compétences:</h2>
                 <ul>
                   <li className="list-text">
@@ -288,15 +290,15 @@ export default function Home() {
                     pour animer et fidéliser une communauté.
                   </li>
                   <li className="list-text">
-                    Orienté sur les données, j’analyse rigoureusement les
+                    Orienté sur les données, j&apos;analyse rigoureusement les
                     indicateurs clés (engagement, reach, conversions) et
-                    j’ajuste en continu la stratégie pour maximiser l’impact des
-                    campagnes.
+                    j&apos;ajuste en continu la stratégie pour maximiser
+                    l&apos;impact des campagnes.
                   </li>
                   <li className="list-text">
-                    Je peux aussi m&apos;occuper de site web, que ce soit du CMS ou
-                    du plus poussée en développement. J&apos;ai des compétences en
-                    Symfony et React.
+                    Ayant aussi des compétences de développeur, je peux
+                    m&apos;occuper de site web, que ce soit du CMS ou des sites
+                    plus poussée en termes de développement.
                   </li>
                 </ul>
                 <h2 className="modal-paragraph-header-2">
@@ -304,13 +306,14 @@ export default function Home() {
                 </h2>
                 <ul>
                   <li className="list-text-2">
-                    La musique de fond est une version Lofi d&apos;une
+                    La musique de fond :
                     <a href="https://www.youtube.com/watch?v=oSxTqeY43QE&list=RDoSxTqeY43QE&start_radio=1&pp=ygUlZmluYWwgZmFudGFzeSBjcnlzdGFsIGNocm9uaWNsZXMgbG9maaAHAQ%3D%3D">
                       OST Final Fantasy Crystal Chronicles
                     </a>
                   </li>
                   <li className="list-text-2">
-                    Ce portfolio a été réalisé en suivant la vidéo Youtube d&apos;
+                    Ce site a été réalisé grâce aux connaissances apportées par
+                    la vidéo d&apos;
                     <a
                       href="https://www.youtube.com/watch?v=AB6sulUMRGE"
                       target="_blank"
@@ -361,7 +364,8 @@ export default function Home() {
             <div className="modal-content-wrapper">
               <div className="paragraph-section">
                 <h2 className="modal-paragraph-header xsm-margin-top">
-                  Si mon profil vous interesse, n&apos;hésitez pas à me contacter !
+                  Si mon profil vous interesse, n&apos;hésitez pas à me
+                  contacter !
                 </h2>
                 <div className="contact-button-wrapper">
                   <a

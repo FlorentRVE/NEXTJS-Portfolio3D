@@ -151,7 +151,7 @@ export default function Experience() {
 
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
-    controls.mouseButtons.RIGHT = THREE.MOUSE.NONE;
+    controls.enablePan = false;
 
     controls.update();
 
