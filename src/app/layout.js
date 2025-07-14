@@ -2,17 +2,17 @@ import "../style.scss";
 
 export const metadata = {
   metadataBase: new URL("https://florent-rve.fr"),
-  title: "Florent RVE | CM",
+  title: "Florent RVE | Community Manager",
   description: "Venez découvrir mon petit espace de créativité",
   openGraph: {
     type: "website",
-    title: "Florent RVE | CM",
+    title: "Florent RVE | Community Manager",
     description: "Venez découvrir mon petit espace de créativité",
     url: "https://florent-rve.fr",
     images: [
       {
-        url: "/textures/image/poster.webp",
-        alt: "Logo de mon site personnel Florent RVE",
+        url: "/images/Meta_image.webp",
+        alt: "Preview du site personnel Florent RVE",
       },
     ],
   },
