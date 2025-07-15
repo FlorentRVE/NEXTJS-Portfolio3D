@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Experience from "./components/Experience";
+import ProjectModal from "./components/ProjectModal";
 
 export default function Home() {
   return (
@@ -14,7 +14,8 @@ export default function Home() {
           panneaux !
         </p>
         <p className="mobile-instructions instructions">
-          Utilisez un doigt pour bouger et deux doigts pour zoomer !
+          Utilisez un doigt pour bouger, deux doigts pour zoomer et cliquez
+          sur les panneaux !
         </p>
       </div>
 
@@ -135,91 +136,7 @@ export default function Home() {
                     <h2 className="modal-paragraph-header">
                       Retrouvez ici mes créations
                     </h2>
-                    <div className="modal-projects-wrapper">
-                      {/* Projet ici */}
-                      <div className="modal-project">
-                        <img
-                          className="modal-project-image"
-                          src="/images/placeholder.png"
-                          alt="Aperçu du projet Un"
-                        />
-                        <div className="modal-project-description">
-                          <h3 className="modal-project-title">Site Web 3D</h3>
-                          <p className="modal-project-description">
-                            Ce site web avec Blender et Threejs fefgergrg
-                            rfgerfef ef ef efe
-                          </p>
-                        </div>
-                        <a
-                          href="https://github.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="Voir le projet Un sur GitHub"
-                          className="modal-project-link"
-                        >
-                          <img
-                            className="modal-project-link-image"
-                            src="/images/arrow.svg"
-                            alt="Lien vers le projet Un"
-                          />
-                        </a>
-                      </div>
-                      <div className="modal-project">
-                        <img
-                          className="modal-project-image"
-                          src="/images/placeholder.png"
-                          alt="Aperçu du projet Un"
-                        />
-                        <div className="modal-project-description">
-                          <h3 className="modal-project-title">Site Web 3D</h3>
-                          <p className="modal-project-description">
-                            Ce site web avec Blender et Threejs fefgergrg
-                            rfgerfef ef ef efe
-                          </p>
-                        </div>
-                        <a
-                          href="https://github.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="Voir le projet Un sur GitHub"
-                          className="modal-project-link"
-                        >
-                          <img
-                            className="modal-project-link-image"
-                            src="/images/arrow.svg"
-                            alt="Lien vers le projet Un"
-                          />
-                        </a>
-                      </div>
-                      <div className="modal-project">
-                        <img
-                          className="modal-project-image"
-                          src="/images/placeholder.png"
-                          alt="Aperçu du projet Un"
-                        />
-                        <div className="modal-project-description">
-                          <h3 className="modal-project-title">Site Web 3D</h3>
-                          <p className="modal-project-description">
-                            Ce site web avec Blender et Threejs fefgergrg
-                            rfgerfef ef ef efe
-                          </p>
-                        </div>
-                        <a
-                          href="https://github.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="Voir le projet Un sur GitHub"
-                          className="modal-project-link"
-                        >
-                          <img
-                            className="modal-project-link-image"
-                            src="/images/arrow.svg"
-                            alt="Lien vers le projet Un"
-                          />
-                        </a>
-                      </div>
-                      {/* Fin projet */}
-                    </div>
+                    <ProjectModal />
                   </div>
                 </div>
               </div>

@@ -142,7 +142,7 @@ export default function Experience() {
     const controls = new OrbitControls(camera, renderer.domElement);
 
     controls.minDistance = 5;
-    controls.maxDistance = 30;
+    controls.maxDistance = 50;
     controls.minPolarAngle = 0;
     controls.maxPolarAngle = Math.PI / 2;
 
@@ -158,9 +158,9 @@ export default function Experience() {
     //Set starting camera position
     if (window.innerWidth < 768) {
       camera.position.set(
-        -15.967413641505063,
-        8.366929366970151,
-        24.31632017959284
+        -25.661669535789557,
+        12.004468755694583,
+        37.456308575175655
       );
       controls.target.set(
         1.4169133412459323,
