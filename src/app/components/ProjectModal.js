@@ -21,11 +21,10 @@ const ProjectModal = () => {
           </div>
 
           <a
+            className="modal-project-link"
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`Voir le projet ${project.name} sur GitHub`}
-            className="modal-project-link"
           >
             <p className="modal-project-link-text">Voir</p>
           </a>

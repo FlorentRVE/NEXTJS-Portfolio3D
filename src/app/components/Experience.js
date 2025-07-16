@@ -415,7 +415,6 @@ export default function Experience() {
     window.addEventListener(
       "touchend",
       (e) => {
-        e.preventDefault();
         handleRaycasterInteraction();
         touchHappened = true;
       },
