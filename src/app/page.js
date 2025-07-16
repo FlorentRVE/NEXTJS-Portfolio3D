@@ -14,8 +14,8 @@ export default function Home() {
           panneaux !
         </p>
         <p className="mobile-instructions instructions">
-          Utilisez un doigt pour bouger, deux doigts pour zoomer et cliquez
-          sur les panneaux !
+          Utilisez un doigt pour bouger, deux doigts pour zoomer et cliquez sur
+          les panneaux !
         </p>
       </div>
 
@@ -284,10 +284,13 @@ export default function Home() {
                   Si mon profil vous interesse, n&apos;hésitez pas à me
                   contacter !
                 </h2>
+                <p className="modal-paragraph-header xsm-margin-top">
+                  (Les mêmes liens se cachent dans le décor😉)
+                </p>
                 <div className="contact-button-wrapper">
                   <a
                     className="contact-link"
-                    href="mailto:someone@example.com"
+                    href="mailto:florent.rve@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -310,7 +313,7 @@ export default function Home() {
                   </a>
                   <a
                     className="contact-link"
-                    href="https://github.com/andrewwoan/sooahkimsfolio"
+                    href="https://github.com/FlorentRVE"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -338,7 +341,7 @@ export default function Home() {
                   </a>
                   <a
                     className="contact-link"
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/florent-rivi%C3%A8re-52b044153/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -365,7 +368,7 @@ export default function Home() {
                   </a>
                   <a
                     className="contact-link"
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/florent.rve/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
