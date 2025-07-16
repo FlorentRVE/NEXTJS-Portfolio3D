@@ -14,10 +14,12 @@ const ProjectModal = () => {
               alt={`Aperçu du projet ${project.name}`}
             />
           </div>
+
           <div className="modal-project-description">
             <h3 className="modal-project-title">{project.name}</h3>
             <p className="modal-project-text">{project.description}</p>
           </div>
+
           <a
             href={project.url}
             target="_blank"
@@ -25,13 +27,7 @@ const ProjectModal = () => {
             aria-label={`Voir le projet ${project.name} sur GitHub`}
             className="modal-project-link"
           >
-            <Image
-              className="modal-project-link-image"
-              src="/images/arrow.svg"
-              alt="Lien vers le projet"
-              width={24}
-              height={24}
-            />
+            <p className="modal-project-link-text">Voir</p>
           </a>
         </div>
       ))}
