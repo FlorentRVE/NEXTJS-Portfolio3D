@@ -2,6 +2,7 @@
 
 import Experience from "./components/Experience";
 import ProjectModal from "./components/ProjectModal";
+import SocialMedia from "./components/SocialMedia";
 
 export default function Home() {
   return (
@@ -134,7 +135,13 @@ export default function Home() {
                 <div className="work-project-wrapper">
                   <div className="paragraph-section">
                     <h2 className="modal-paragraph-header">
-                      Retrouvez ici mes créations
+                      Mes Réseaux
+                    </h2>
+                    <SocialMedia />
+                  </div>
+                  <div className="paragraph-section">
+                    <h2 className="modal-paragraph-header">
+                      Retrouvez ici mes créations Web
                     </h2>
                     <ProjectModal />
                   </div>
