@@ -284,7 +284,7 @@ export default function Experience() {
     const raycasterObjects = [];
     let currentsRaycasterObjects = [];
     const Links = {
-      Logo_insta_raycaster: "https://www.instagram.com/florent.rve/",
+      Logo_insta_raycaster: "https://www.instagram.com/flow_rve/",
       Logo_linkedin_raycaster:
         "https://www.linkedin.com/in/florent-rivi%C3%A8re-52b044153/",
       Logo_Github_raycaster: "https://github.com/FlorentRVE?tab=repositories",

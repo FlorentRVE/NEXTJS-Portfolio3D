@@ -3,7 +3,7 @@
     "name": "Site Web 3D",
     "description": "Un site interactif en 3D réalisé avec Blender et Three.js pour une expérience immersive.",
     "image": "/images/placeholder.png",
-    "url": "https://github.com/votre-utilisateur/site-web-3d"
+    "url": "https://github.com/FlorentRVE/NEXTJS-Portfolio3D"
   },
   {
     "name": "Application Mobile Batay Pump",
@@ -22,5 +22,11 @@
     "description": "Exercice site de recherche de prestataires.",
     "image": "/images/placeholder.png",
     "url": "https://github.com/FlorentRVE/REACTJS-ADONISJS-Presta"
+  },
+  {
+    "name": "Symfony React MuscleBuster",
+    "description": "Exercice site de vente de complément alimentaire avec gestion panier.",
+    "image": "/images/placeholder.png",
+    "url": "https://github.com/FlorentRVE/REACT-SYMFONY-MuscleBuster"
   }
 ]
