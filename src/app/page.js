@@ -134,9 +134,7 @@ export default function Home() {
               <div className="work-project">
                 <div className="work-project-wrapper">
                   <div className="paragraph-section">
-                    <h2 className="modal-paragraph-header">
-                      Mes Réseaux
-                    </h2>
+                    <h2 className="modal-paragraph-header">Mes Réseaux</h2>
                     <SocialMedia />
                   </div>
                   <div className="paragraph-section">
@@ -189,7 +187,9 @@ export default function Home() {
                   src="/images/apropos.webp"
                   alt="image bannière"
                 />
-                <h2 className="modal-paragraph-header">Community Manager / Développeur Web</h2>
+                <h2 className="modal-paragraph-header">
+                  Community Manager / Développeur Web
+                </h2>
                 <p className="modal-paragraph-text">
                   Bonjour et bienvenue ! Je m&apos;appelle Rivière Florent.
                 </p>
@@ -375,7 +375,7 @@ export default function Home() {
                   </a>
                   <a
                     className="contact-link"
-                    href="https://www.instagram.com/florent.rve/"
+                    href="https://www.instagram.com/flow_rve/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
