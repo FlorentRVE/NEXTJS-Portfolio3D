@@ -189,7 +189,7 @@ export default function Home() {
                   src="/images/apropos.webp"
                   alt="image bannière"
                 />
-                <h2 className="modal-paragraph-header">Community Manager</h2>
+                <h2 className="modal-paragraph-header">Community Manager / Développeur Web</h2>
                 <p className="modal-paragraph-text">
                   Bonjour et bienvenue ! Je m&apos;appelle Rivière Florent.
                 </p>
