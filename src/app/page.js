@@ -192,7 +192,8 @@ export default function Home() {
                   Bienvenue sur mon petit îlot.
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
-                  Je suis passionné par le dévelopement d'expérience web créative ! 😊✌️
+                  Je suis passionné par le dévelopement d&apos;expérience web
+                  créative ! 😊✌️
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
                   En dehors de mes missions en développement, je peaufine mes
@@ -211,14 +212,14 @@ export default function Home() {
                     {" "}
                     Développeur web polyvalent, je conçois et maintiens des
                     applications robustes avec principalement Symfony (API,
-                    back-office, sécurité, performance) et{" "} Next.js (front moderne, 3D, Motion,
-                    routing, intégrations).{" "}
+                    back-office, sécurité, performance) et Next.js (front
+                    moderne, 3D, Motion, routing, intégrations).{" "}
                   </li>{" "}
                   <li className="list-text">
                     {" "}
                     Orienté qualité et maintenabilité, je mets en place une
-                    architecture claire, des bonnes pratiques et des optimisations pour garantir
-                    un code fiable et évolutif.{" "}
+                    architecture claire, des bonnes pratiques et des
+                    optimisations pour garantir un code fiable et évolutif.{" "}
                   </li>{" "}
                   <li className="list-text">
                     {" "}
