@@ -348,7 +348,7 @@ export default function Experience() {
 
     // Video Texture
     const videoElement = document.createElement("video");
-    videoElement.src = "/textures/videos/motion.mp4";
+    videoElement.src = "/textures/videos/lofi.mp4";
     videoElement.loop = true;
     videoElement.muted = true;
     videoElement.autoplay = true;

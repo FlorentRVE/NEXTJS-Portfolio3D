@@ -133,10 +133,10 @@ export default function Home() {
             <div className="modal-content-wrapper">
               <div className="work-project">
                 <div className="work-project-wrapper">
-                  <div className="paragraph-section">
+                  {/* <div className="paragraph-section">
                     <h2 className="modal-paragraph-header">Mes Réseaux</h2>
                     <SocialMedia />
-                  </div>
+                  </div> */}
                   <div className="paragraph-section">
                     <h2 className="modal-paragraph-header">
                       Retrouvez ici mes créations Web
@@ -187,20 +187,18 @@ export default function Home() {
                   src="/images/apropos.webp"
                   alt="image bannière"
                 />
-                <h2 className="modal-paragraph-header">
-                  Community Manager / Développeur Web
-                </h2>
+                <h2 className="modal-paragraph-header">Développeur Web</h2>
                 <p className="modal-paragraph-text">
-                  Bonjour et bienvenue ! Je m&apos;appelle Rivière Florent.
-                </p>
-                <p className="modal-paragraph-text">
-                  Je suis passionné par l&apos;apprentissage et par la création
-                  de projets innovants sur ordinateur ! 😊✌️
+                  Bienvenue sur mon petit îlot.
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
-                  En dehors de mes missions, je peaufine mes compétences en 3D
-                  (Blender), motion design (After Effects) et graphisme
-                  (Photoshop). 🎨
+                  Je suis passionné par le dévelopement d'expérience web créative ! 😊✌️
+                </p>
+                <p className="modal-paragraph-text sm-margin-top">
+                  En dehors de mes missions en développement, je peaufine mes
+                  compétences en 3D (Blender), motion design (After Effects) et
+                  graphisme (Photoshop) afin de pouvoir les intégrer dans mes
+                  projets. 🎨
                 </p>
                 <p className="modal-paragraph-text sm-margin-top">
                   Je suis également immergé dans la culture web et gaming. 🎮
@@ -208,22 +206,27 @@ export default function Home() {
 
                 <h2 className="modal-paragraph-header">Mes compétences:</h2>
                 <ul>
+                  {" "}
                   <li className="list-text">
-                    Créatif et polyvalent, je conçois visuels et formats
-                    interactifs percutants (stories, vidéos courtes, sondages)
-                    pour animer et fidéliser une communauté.
-                  </li>
+                    {" "}
+                    Développeur web polyvalent, je conçois et maintiens des
+                    applications robustes avec principalement Symfony (API,
+                    back-office, sécurité, performance) et{" "} Next.js (front moderne, 3D, Motion,
+                    routing, intégrations).{" "}
+                  </li>{" "}
                   <li className="list-text">
-                    Orienté sur les données, j&apos;analyse rigoureusement les
-                    indicateurs clés (engagement, reach, conversions) et
-                    j&apos;ajuste en continu la stratégie pour maximiser
-                    l&apos;impact des campagnes.
-                  </li>
+                    {" "}
+                    Orienté qualité et maintenabilité, je mets en place une
+                    architecture claire, des bonnes pratiques et des optimisations pour garantir
+                    un code fiable et évolutif.{" "}
+                  </li>{" "}
                   <li className="list-text">
-                    Ayant aussi des compétences de développeur, je peux
-                    m&apos;occuper de site web, que ce soit du CMS ou des sites
-                    plus poussée en termes de développement.
-                  </li>
+                    {" "}
+                    Autonome de bout en bout, je peux gérer un projet web
+                    complet : conception, intégration, déploiement et
+                    maintenance, que ce soit via un <strong>CMS</strong> ou un
+                    développement sur mesure plus avancé.{" "}
+                  </li>{" "}
                 </ul>
                 <h2 className="modal-paragraph-header-2">
                   Portfolio credits & Inspiration:

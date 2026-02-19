@@ -2,11 +2,11 @@ import "../style.scss";
 
 export const metadata = {
   metadataBase: new URL("https://florent-rve.fr"),
-  title: "Florent RVE | Community Manager",
+  title: "Florent RVE | Développeur Web",
   description: "Venez découvrir mon petit espace de créativité",
   openGraph: {
     type: "website",
-    title: "Florent RVE | Community Manager",
+    title: "Florent RVE | Développeur Web",
     description: "Venez découvrir mon petit espace de créativité",
     url: "https://florent-rve.fr",
     images: [
